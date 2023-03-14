@@ -2,8 +2,8 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: Peng Fan111 # Site title
-  author: The Redefine Team # Author name
+  title: Peng Fan # Site title
+  author: By Peng Fan # Author name
   url: https://redefine.ohevan.com # Site url
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img: # logo image on the left of the navigation bar
