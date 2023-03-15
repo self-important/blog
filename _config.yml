@@ -104,7 +104,7 @@ theme: redefine
 deploy:
   type: git
   repository: https://github.com/self-important/self-important.github.io.git
-  brash: main
+  brash: master
 
 # hexo-hide-posts
 hide_posts:
