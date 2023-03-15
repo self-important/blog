@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   title: Peng Fan # Site title
-  author: By Peng Fan # Author name
+  author: Peng Fan # Author name
   url: https://redefine.ohevan.com # Site url
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img: # logo image on the left of the navigation bar
@@ -16,10 +16,10 @@ style:
   primary_color: "#005080"
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/redefine-avatar.svg # avatar of the author
+  avatar: /images/head-sculpture.jpg # avatar of the author
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/redefine-logo.svg # favicon of the site
+  favicon: /images/head-sculpture.jpg # favicon of the site
   og_image: # og:image of the site
     enable: false
     image_url: # image url
@@ -36,7 +36,7 @@ style:
   #navigation bar background color (from left to right)
   nav_color:
     left: "#f78736" #left side
-    right: "#367df7" #right side
+    right: "#367df7"  #right side
     transparency: 35 #percent (10-99)
 
   # Mouse hover
@@ -57,14 +57,14 @@ style:
       title: 2.8rem # first screen title font size
       subtitle: 1.5rem # first screen subtitle font size
     line_height: 1.2 # first screen title line height
-    title: Theme Redefine # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+    title: Peng Fan's hut # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
     subtitle:
-      enable: false
-      list: []
+      enable: true
+      list: ['Welcome to my blog']
     custom_font: # custom font for the first screen
       enable: false
       font_family: # the font family name of the url below
-      font_url: # The url to the font file
+      font_url:  # The url to the font file
 
   # Scroll style settings
   scroll:
@@ -77,13 +77,13 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
-  enable: false
+  enable: true
   links:
-    github: # your GitHub URL
+    github:  https://github.com/self-important
     instagram: # your Instagram URL
-    zhihu: # your ZhiHu URL
-    twitter: # your twitter URL
-    email: # your email
+    zhihu:  # your ZhiHu URL
+    twitter:  # your twitter URL
+    email:  664276544@qq.com
     # ...... # you can add more
 
 # ---------------------------------------------------------------------------------------
@@ -93,6 +93,13 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
   Home:
     path: /
     icon: fa-regular fa-house # can be empty
+  # 文档:
+    #  path: /document
+    #  icon: fa-regular fa-book
+  #  关于:
+    #  path: /about
+    #  icon: fa-regular fa-user
+
   # Archives:
   #   path: /archives
   #   icon: fa-regular fa-archive # can be empty
@@ -114,6 +121,8 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
   #     Link3: /link3
 
   # ...... # you can add more
+
+
 
 # ---------------------------------------------------------------------------------------
 # Home page article block display settings
@@ -209,7 +218,7 @@ comment:
   # Waline
   # See: https://waline.js.org/guide/get-started.html
   waline:
-    serverUrl: # Waline server url(vercel) example: https://example.example.com
+    serverUrl:  # Waline server url(vercel) example: https://example.example.com
     lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
 
   # Gitalk
@@ -295,7 +304,7 @@ footer:
   runtime: true # show website running time or not
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>' # footer icon, write fontawesome html code here
   start_time: 2022/8/17 11:45:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
-  customize: # customize footer message, can be html code
+  customize:  # customize footer message, can be html code
   icp: # ICP record number of your website, Can be null
     enable: false
     number: # ICP record number
